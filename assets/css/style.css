@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+:root{
+     --myfont: "PT Sans";
+     --color_one: #0f49a9;
+     --font_color: #ffffff;
+}
+.nav-item {
+     background-color: var(--color_one);
+     margin-left: 1px;
+     border-radius: 4px ;
+     text-align: center;
+     a{
+          color: var(--font_color);
+          font-family:var(--myfont) ;
+     }
+}
+.nav-item a:hover{
+     color: yellow;
+} 
+.carousel-item{
+     position: relative;
+}
+.buttone_banner {
+     position: absolute;
+     padding: 55px 50px 40px 28px;
+     top: 4%;
+     left: 15%;
+      h2 {
+          color: var(--color_one);
+          font-family: var(--main_font);
+          font-weight: 800;
+          font-size: 47px;
+          word-spacing: 3px;
+     }
+     h3{
+          color: var(--color_one);
+          font-weight: 700;
+          font-size: 26px;
+          margin-bottom: 1rem;
+     }
+     p{   margin-top: 10px;
+          text-align: justify;
+          font-size: 15px;
+          font-family: var(--myfont);
+     }
+     a{
+          background-color: var(--color_one);
+          border-radius: 5px;
+          color: var(--font_color);
+          font-size: 15px;
+     } 
+}
+.features{
+     img{
+          height: 30%;
+          width: 30%;
+     }
+     h6{  
+          margin-bottom: 0px;
+     }
+     p{
+          margin-bottom: 0px;
+          font-size: px;
+          margin-right: -10rem;
+     }
+}
+/* Welcome part */
+.welcome_part{
+     margin-top: 2rem;
+     h5{
+          color: #9c9fab;
+     }
+     h4{
+          color: #1d2a38;
+          font-size: 42px;
+          font-weight: 800;
+          margin: 15px 0px 15px 0px;
+     }
+     h6{
+          color: #1d2a38;
+     }
+     ul li{
+          color: #1d2a38;
+          margin-left: -10px;
+          list-style-image: url(/assets/img/icon/list\ item1.png) ;
+          font-weight: bold;
+     }
+     p{
+          font-family: var(--myfont);
+          text-align: justify;
+     }
+}
+.Patients_Review{
+     background:url(/assets/img/Patients\ Review.png) no-repeat center /cover;
+     .icons{
+          color: #f8c315;
+     }
+}
+footer{
+     font-family: var(--myfont);
+     background-color: #0f49a9;
+     color: var(--font_color);
+     ul li{
+          list-style-image: url(/assets/img/icon/list\ item\ two.png);
+          line-height: 30px;
+     }
+     .footer_saction i{
+          line-height: 35px;
+     }
+      a{
+          color: var(--font_color);
+          text-decoration: none;
+     }
+     .footer_head p{
+          background-color: #002869;
+     }
+
+}
+     .copyright{
+          background-color: #002869;
+     }
