@@ -87,7 +87,7 @@
      ul li{
           color: #1d2a38;
           margin-left: -10px;
-          list-style-image: url(/assets/img/icon/list\ item1.png) ;
+          list-style-image: url(assets/img/icon/list\ item1.png) ;
           font-weight: bold;
      }
      p{
@@ -96,7 +96,7 @@
      }
 }
 .Patients_Review{
-     background:url(/assets/img/Patients\ Review.png) no-repeat center /cover;
+     background:url(assets/img/Patients\ Review.png) no-repeat center /cover;
      .icons{
           color: #f8c315;
      }
@@ -106,7 +106,7 @@ footer{
      background-color: #0f49a9;
      color: var(--font_color);
      ul li{
-          list-style-image: url(/assets/img/icon/list\ item\ two.png);
+          list-style-image: url(assets/img/icon/list\ item\ two.png);
           line-height: 30px;
      }
      .footer_saction i{
